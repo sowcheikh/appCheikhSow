@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+ <!-- Tome 1 -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-4">Guide du logiciel Tome 1</h1>
+                    <p>Ce manuel traite des bases de l’algorithmique cumulées à la
+                        pratique jusqu’à la manipulation des pointeurs</p>
+                    <p class="mb-4">Chaque chapitre explique les concepts à retenir suivis par une série d'énoncés
+                        d'exercices et problèmes corrigés classés par difficulté.</p>
+                    <p>Trois tomes sont également attendus ...</p>
+                    <a class="d-inline-flex align-items-center rounded overflow-hidden border border-primary" href="">
+                        <span class="btn-lg-square bg-primary" style="width: 55px; height: 55px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </span>
+                        <span class="fs-5 fw-medium mx-4">+221 77 138 42 09</span>
+                    </a>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3">
+                        <img class="w-100" src="{% static '/img/tome1.jpg'%}" alt="Image" height="500px">
+                        <div class="col-12 text-center">
+                            <button class="btn btn-primary w-100 py-3" type="submit">Commander
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tome 1 -->
+{% endblock %}

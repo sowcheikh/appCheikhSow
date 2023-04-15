@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+ <!-- Tome 2 -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3">
+                        <img class="w-100" src="{% static '/img/tome2.jpg'%}" alt="Image" height="500px">
+                        <div class="col-12 text-center">
+                            <button class="btn btn-primary w-100 py-3" type="submit">Commander
+                            <i class="fa fa-cart-shopping text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-4">Guide du logiciel Tome 2</h1>
+                    <p>Ce tome 2 représente un choix pragmatique fondé sur un enseignement
+                        réaliséen interaction avec des étudiants depuis plus de dix années.</p>
+                    <p class="mb-4">Il contient un choix original de sujets et dévoile au fil des pages
+                        les prolongements des sections de base vers des sujets plus spécialisés. ...</p>
+                    <a class="d-inline-flex align-items-center rounded overflow-hidden border border-primary" href="">
+                        <span class="btn-lg-square bg-primary" style="width: 55px; height: 55px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </span>
+                        <span class="fs-5 fw-medium mx-4">+221 77 138 42 09</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tome 2 -->
+{% endblock %}
